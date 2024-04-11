@@ -31,18 +31,19 @@ $('#close-sidebar-btn').on('click', function(){
         $(this).removeClass('show');
     });
     $('.owl-carousel').owlCarousel({
-        loop:false,
+        loop:true,
         margin:10,
+        items:4,
         nav:true,
         responsive:{
           0:{
-            items:1
+            items:2
           },
           600:{
-            items:1
+            items:2
           },
           1000:{
-            items:1
+            items:4
           }
         }
       });

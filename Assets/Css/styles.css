@@ -276,6 +276,7 @@ input[type="date"]::-webkit-calendar-picker-indicator {
     border: 1.251px solid #C0C4D7;
     display: block;
     text-decoration: none;
+    background: white;
 }
 .custom-card-img-wrapper{
     position: relative;
@@ -1054,11 +1055,11 @@ input[type=number]::-webkit-outer-spin-button {
 }
 .custom-slider .owl-nav{
     position: absolute;
-    top: 50%;
+    top: -70px;
     transform: translateY(-50%);
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     margin: 0;
 }
 .custom-slider .owl-nav button{
@@ -1071,31 +1072,25 @@ input[type=number]::-webkit-outer-spin-button {
 
 }
 .custom-slider .owl-nav button{
-    background: #FF5450 !important;
-    color:#FFFFFF !important;
+    background: white !important;
+    color:black !important;
 }
 .custom-slider .owl-nav button span{
     display: none;
 }
 .custom-slider .owl-nav button:before {
     font-family: "Font Awesome 5 Free";
-   
     display: inline-block;
     padding-right: 3px;
     vertical-align: middle;
     font-weight: 900;
  }
- .custom-slider .owl-nav .owl-next{
-    margin-right: -60px;
- }
- .custom-slider .owl-nav .owl-prev{
-    margin-left: -60px;
- }
+
  .custom-slider .owl-nav .owl-next:before{
-    content: "\f061";
+    content: "\f105";
  }
  .custom-slider .owl-nav .owl-prev:before{
-    content: "\f060";
+    content: "\f104";
  }
  .custom-slider.owl-theme .owl-nav button.disabled{
     opacity: 1;
