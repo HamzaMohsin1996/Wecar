@@ -1,0 +1,1994 @@
+@font-face {
+    font-family: 'Plus Jakarta Sans Regular';
+    src: url('./PlusJakartaSans-Regular.ttf') format('truetype');
+    /* Add additional font formats if necessary */
+}
+@font-face {
+    font-family: 'Plus Jakarta Sans bold';
+    src: url('./PlusJakartaSans-Bold.ttf') format('truetype');
+    /* Add additional font formats if necessary */
+}
+@font-face {
+    font-family: 'Plus Jakarta Sans extrabold';
+    src: url('./PlusJakartaSans-ExtraBold.ttf') format('truetype');
+    /* Add additional font formats if necessary */
+}
+@font-face {
+    font-family: 'Plus Jakarta Sans semibold';
+    src: url('./PlusJakartaSans-SemiBold.ttf') format('truetype');
+    /* Add additional font formats if necessary */
+}
+@font-face {
+    font-family: 'Plus Jakarta Sans medium';
+    src: url('./PlusJakartaSans-Medium.ttf') format('truetype');
+    /* Add additional font formats if necessary */
+}
+
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+    font-family: 'Plus Jakarta Sans Regular';
+    font-size: 18px;
+    background: #ececec;
+}
+/* Custom Font sizes */
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+h1{
+    font-size: 60px;
+}
+h1 span{
+    display: block;
+    font-family: 'Plus Jakarta Sans bold';
+
+}
+h2{
+    font-size: 48px;
+    font-family: 'Plus Jakarta Sans semibold';
+    margin: 0;
+}
+h3{
+    font-size: 32px;
+}
+h4{
+    font-family: 'Plus Jakarta Sans semibold';
+    font-size: 28px;
+    color: #575E8D;
+}
+h5{
+    font-size: 24px;
+}
+h6{
+    font-size: 22px;
+}
+p{
+    font-size: 18px;
+    color: #969CC1;
+}
+.small-p{
+    font-size: 14px;
+}
+.custom-text-small{
+    font-size: 16px;
+}
+
+.text-grey{
+    color: #989EBB !important;
+}
+.custom-light-grey{
+    color: #575E8D;
+}
+.custom-text-black{
+    color: #1C1C45;
+}
+a.custom-text-black{
+    color: #1C1C45 !important;
+}
+.line-wrapper{
+    width: 36.97px;
+    height: 1px;
+    background-color: #FF5450;
+    display: inline-block;
+}
+.left-side-border{
+    border-left: 8px solid #FF5450;
+}
+.grey-text{
+    color: #3C4242;
+}
+a{
+    font-size: 20px !important;
+    font-family: 'Plus Jakarta Sans medium';
+    color: #0F2882 !important;
+    text-decoration: none !important;
+    
+}
+button{
+    background-color: transparent;
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+.extra-small-text{
+    font-size: 12px !important;
+}
+.primary-gradient{
+    background: linear-gradient(270deg, #141754 0%, #112374 28.33%, #0F2982 100%);
+}
+.small-section-wrapper{
+    max-width: 550px;
+}
+.custom-padding-top-bottom{
+    padding: 32px 0;
+}
+.section-padding{
+    padding: 60px 0;
+}
+.custom-text-primary{
+    color: #141652!important;
+}
+a.custom-text-primary{
+    color: #141652 !important;
+}
+.custom-seondary-color{
+    color: #FF5450 !important;
+}
+
+.text-grey-light{
+    color: #677489;
+}
+.custom-text-light-grey{
+    color: #807D7E;
+}
+
+.border-grey{
+    border: 1px solid #C0C4D7;
+}
+.custom-font-bold{
+    font-family: 'Plus Jakarta Sans bold';
+}
+.custom-font-bold-extra{
+
+    font-family: 'Plus Jakarta Sans extrabold';
+}
+.custom-font-semibold{
+    font-family: 'Plus Jakarta Sans semibold';
+}
+.font-weight-500{
+    font-family: 'Plus Jakarta Sans medium';
+}
+.font-regular{
+    font-family: 'Plus Jakarta Sans Regular';
+}
+
+.custom-input-wrapper, .custom-select, .custom-textarea{ 
+    position: relative;
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+
+
+.custom-input{
+    padding: 16px 20px;
+    border-radius: 4px;
+    background: transparent;
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans Regular';
+    color: #575E8D;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    width: 100%;
+    padding-left: 60px;
+    border: 1px solid #575E8D;
+    border-radius: 10px;
+}
+.custom-textarea{
+    padding: 16px 20px;
+    border-radius: 4px;
+    background: transparent;
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans Regular';
+    color: #575E8D;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    width: 100%;
+    padding-left: 60px;
+    border: 1px solid #575E8D;
+    border-radius: 10px;
+}
+.custom-date-picker{
+    max-width: 630px;
+    margin: 0 auto;
+    position: relative;
+    
+}
+.custom-date-picker.mw-auto{
+    max-width: unset !important;
+    margin: 0;
+}
+.custom-date-picker input{
+    padding: 16px 20px;
+    border-radius: 4px;
+    background: transparent;
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans Regular';
+    color: #575E8D;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    width: 100%;
+    box-shadow: none;
+    border: none;
+    outline: none;
+}
+.custom-input-wrapper img, .custom-select img,.custom-date-picker img{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    left: 24px;
+    transform: translateY(-50%);
+
+}
+.custom-input-wrapper i, .custom-select img,.custom-date-picker i{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 50%;
+    left: 24px;
+    transform: translateY(-50%);
+    color: #575E8D;
+
+}
+.custom-input::placeholder{
+    font-size: 16px;
+    color: #575E8D;
+}
+input[type="date"]::-webkit-inner-spin-button,
+input[type="date"]::-webkit-calendar-picker-indicator {
+    display: none;
+    -webkit-appearance: none;
+}
+.custom-select select{
+    padding: 16px 20px;
+    border-radius: 4px;
+    background: transparent;
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans Regular';
+    color: #575E8D;
+    border: none;
+    box-shadow: none;
+    outline: none;
+    width: 100%;
+    padding-left: 60px;
+    border: 1px solid #575E8D;
+    border-radius: 10px;
+}
+.card-wrapper{
+    padding: 16px;
+    border-radius: 15px;
+    border: 1.251px solid #C0C4D7;
+    display: block;
+    text-decoration: none;
+}
+.custom-card-img-wrapper{
+    position: relative;
+}
+.custom-card-img-wrapper img{
+    max-width: 100%;
+    border-radius: 12px;
+    max-height: 270px;
+    width: 100%;
+}
+.custom-status-wrapper {
+    font-size: 16px;
+    padding: 8px 24px;
+    border-radius: 75px 125.087px 125.087px 0px;
+    position: absolute;
+    left: 0;
+    color: white;
+}
+.custom-status-wrapper.sucess{
+    background: rgba( 50, 201, 151,0.8);
+   
+}
+.custom-status-wrapper.red{
+    background: rgba(255, 83, 80,0.8);
+}
+.custom-status-wrapper.grey{
+    background: rgba(152, 158, 187,0.8);
+}
+.custom-status-wrapper.black{
+    background: rgba(28, 28, 69,0.8);
+}
+.card-details-wrapper{
+    padding: 32px 0 16px;
+    display: flex;
+    align-items: center;
+
+}
+.card-details-wrapper-image{
+    width: 58px;
+    height: 58px;
+    padding: 10px;
+    border-radius: 50%;
+    border: 1px solid #C0C4D7;
+}
+.card-details-wrapper-image img{
+    max-width: 100%;
+}
+.card-details-text-wrapper{
+    padding-left: 15px;
+    width: calc(100% - 58px);
+}
+
+.card-details-text-wrapper-top, .card-details-text-wrapper-bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-details-text-wrapper-bottom{
+    padding-top: 10px;
+    justify-content: flex-start;
+}
+.card-details-text-wrapper-bottom > div{
+    margin-right: 10px;
+}
+.custom-image-text-wrap{
+    display: flex;
+    align-items: center;
+}
+.custom-image-text-wrap img{
+    max-width: 18px;
+    max-height: 18px;
+    margin-right: 7px;
+}
+.card-wrapper-bottom{
+    display: flex;
+    align-items: center;
+    padding-top: 16px;
+}
+.card-wrapper-bottom p{
+  position: relative;
+  padding: 0 16px;
+}
+.card-wrapper-bottom p:nth-child(1){
+    padding-left: 0;
+
+  }
+  .card-wrapper-bottom p:nth-child(1)::before{
+    content: none;
+  }
+.card-wrapper-bottom p::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 4px;
+    height: 4px;
+    background: #E6E8EE;
+  }
+/* Custom Primary Buttons */
+.custom-btn{
+    padding: 14px 32px;
+    font-size: 20px;
+    font-family: 'Plus Jakarta Sans semibold';
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none !important;
+    min-width: 230px;
+    display: inline-block;
+    border: none;
+}
+.width-auto{
+    min-width: auto; 
+    font-size: 16px;
+    font-family: 'Plus Jakarta Sans medium';
+}
+.small-btn{
+    padding: 10px !important;
+    min-width: 150px !important;
+}
+.extra-small-btn{
+    padding: 12px 22px !important;
+    min-width: auto !important;
+}
+.custom-primary-button{
+    background: #0F2882;
+    color: #FFFFFF !important;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.custom-primary-button img{
+    max-width: 24px;
+}
+.custom-primary-button-filled{
+    background: #0F2882;
+    color: #FFFFFF !important;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.custom-link{
+    color:#FFFFFF !important;
+    font-size: 18px;
+    font-family: 'Plus Jakarta Sans Regular' !important;
+}
+.custom-transparent-btn{
+    font-size: 16px;
+    background-color: transparent;
+    border: none;
+    color: #989EBB;
+    padding: 0 15px;
+}
+.custom-text-eclipse{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+.custom-text-wrap-1{
+    -webkit-line-clamp: 1;
+}
+.custom-text-wrap-2{
+    -webkit-line-clamp: 2;
+}
+.custom-text-wrap-3{
+    -webkit-line-clamp: 3;
+}
+.custom-text-wrap-4{
+    -webkit-line-clamp: 4;
+}
+.custom-text-wrap-5{
+    -webkit-line-clamp: 5;
+}
+.custom-primary-button:hover{
+    background:#141754;
+}
+.custom-primary-button  span{
+    padding-right: 8px;
+    display: inline-block; 
+    transition: transform 0.3s ease;
+}
+.custom-primary-button  span i{
+    transform-origin: center; 
+}
+.custom-primary-button:hover span i{
+    transform: unset; 
+    transform-origin: center; 
+    transform: rotate(260deg);
+}
+.filter-cars{
+    font-size: 12px !important;
+    color: #545454 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.filter-cars img{
+    max-width: 50px;
+    max-height: 20px;
+}
+.filter-by-city{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4;
+}
+.filter-by-city  li{
+    width: 25%;
+}
+.filter-by-city li a{
+    font-size: 12px !important;
+    color: #545454 !important;
+    font-family: 'Plus Jakarta Sans medium';
+}
+.nav-item .custom-primary-button{
+    font-size: 16px !important;
+    font-family: 'Plus Jakarta Sans medium';
+} 
+.custom-secondary-button{
+    color: #FF5450 !important;
+    border: 1px solid #FF5450;
+    text-decoration: none !important;
+    transition: .3s ease-in;
+}
+.custom-secondary-button:hover{
+    background: #FF5450 !important;
+    border: 1px solid transparent;
+    color:#FFFFFF !important;
+}
+.orange-filled-btn{
+    background-color: #FF5450 !important;
+    color:#FFFFFF !important;
+    border: 1px solid transparent;
+}
+.orange-filled-btn:hover{
+    background-color:#FFFFFF !important;
+    color: #FF5450 !important;
+    border: 1px solid #FF5450;
+}
+.white-outline-btn{
+    background-color: transparent;
+    border: 1px solid white;
+    color:#FFFFFF !important;
+}
+.white-outline-btn:hover{
+    background-color: #FF5450 !important;
+    border: 1px solid transparent;
+}
+.orange-filled-btn  span{
+    padding-right: 8px;
+    display: inline-block; 
+    transition: transform 0.3s ease;
+}
+.orange-filled-btn  span i{
+ 
+    transform-origin: center; 
+}
+.orange-filled-btn:hover span i{
+    transform: unset; 
+    transform-origin: center; 
+    transform: rotate(260deg);
+}
+.white-outline-filled-btn{
+    background: white !important;
+    border: 1px solid #FF5450 !important;
+    color: #FF5450 !important;
+}
+.white-outline-filled-btn:hover{
+    background: #FF5450 !important;
+    color:#FFFFFF !important;
+}
+.nav-link{
+    padding: 0 24px !important;
+}
+.nav-link:nth-last-child(1){
+    padding-right: 40px !important;
+}
+.custom-padding-inner-section{
+    padding: 48px 0;
+}
+
+/* styles.css */
+.search-container {
+    display: flex;
+    position: relative;
+}
+
+
+.search-input {
+    border-radius: 12px;
+    background: rgba(255, 255, 255, 0.80);
+    box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.25);
+    backdrop-filter: blur(2px);
+    padding: 16px 70px 16px 20px;
+    flex: 1; /* Grow to fill remaining space */
+    border: none;
+    font-size: 18px;
+    font-style: normal;
+    font-family: 'Plus Jakarta Sans Regular';
+    min-height: 80px;
+    outline: none;
+    color: #575E8D;
+}
+.search-input::placeholder {
+    color: #575E8D;
+}
+.search-input::-webkit-search-cancel-button {
+    -webkit-appearance: none;
+}
+
+.search-button {
+    background-color: #FF5450;
+    border: none;
+    border-radius: 4px;
+    padding: 15px;
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+}
+.search-button img{
+    max-width: 100%;
+    margin-bottom: 10px;
+}
+.search-button:hover{
+    background-color: #E02B1D;
+}
+
+.search-button i {
+    color: white;
+}
+.custom-box-wrapper{
+    width: 48px;
+    height: 48px;
+    border-radius: 4px;
+    background-color: #FF5450 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+.large-box-wrapper{
+    width: 64px;
+    height: 64px;  
+}
+.custom-box-wrapper img{
+    max-width: 100%;
+}
+
+/* Ensure proper spacing of elements */
+.custom-header {
+    margin: 0 auto;
+    border-radius: 80px;
+    max-width: 1320px;
+    top: 34px;
+
+}
+.scroll .custom-header{
+    top: 26px;
+
+}
+.custom-header  .nav-item > a {
+    font-size: 16px !important;
+}
+.custom-header .orange-filled-btn.custom-btn{
+    font-size: 16px !important;
+    padding: 8px 18px !important;
+    min-width: auto !important;
+}
+/* Ensure the logo doesn't shrink too much on smaller screens */
+.navbar-brand img {
+    max-width: 190px;
+}
+.custom-header .nav-item > a{
+    color: white !important;
+}
+/* Center telephone icon vertically */
+.navbar-nav .nav-link {
+    display: flex;
+    align-items: center;
+}
+
+/* Style the dropdown menu */
+.dropdown-menu {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+.navbar-collapse-btn{
+    display: none;
+    padding: 10px;
+}
+
+/* Position the triangle tip */
+.dropdown-menu:before {
+    content: "";
+    position: absolute;
+    top: -30px; /* Adjust as needed */
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 20px;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+}
+.dropdown-menu-wide {
+    width: 740px;
+}
+.dropdown-container {
+    position: relative;
+}
+.dropdown-menu.show {
+    display: block;
+}
+
+.dropdown-menu ul {
+    list-style: none;
+    padding: 0;
+}
+
+.dropdown-menu ul li {
+    margin-bottom: 10px;
+}
+
+.dropdown-menu ul li a {
+    color: #333;
+    text-decoration: none;
+}
+ /* Banner Section css */
+.banner-section{
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    height: auto;
+    display:flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    color: #FFFFFF !important;
+}
+.banner-section >div{
+    padding: 140px 0 350px;
+    min-height: 1050px;
+}
+
+.banner-section p{
+    color: #FFFFFF !important;
+}
+.banner-inner-section-wrapper{
+    max-width: 740px;
+}
+.banner-inner-section-wrapper h2{
+    font-family: 'Plus Jakarta Sans extrabold' ;
+}
+ /* Brands Section Css */
+.brands-section {
+    padding: 30px 0;
+    border-bottom: 1px solid #C0C4D7;
+}
+.brands-section img{
+    margin: 0 45px;
+    max-width: 166px;
+    max-height: 34px;
+}
+.best-deal-section{
+    padding-top: 120px;
+    position: relative;
+    margin-top: -350px;
+    background: white;
+    border-radius: 30px;
+}
+.custom-row-wrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 30px;
+}
+.custom-column {
+    max-width: 340px;
+    padding: 0 35px;
+    text-align: center;
+}
+.custom-line-wrapper {
+    min-width: 80px;
+    border: 1px solid #C0C4D7;
+}
+ /* Best Selling Section Css */
+.best-selling-section{
+    background-position: center right;
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+
+.car-deals{
+    min-height: 620px;
+    padding: 60px 80px;
+    border-radius: 48px;
+    background-repeat: no-repeat , no-repeat !important;
+    background-position: center right , top left!important;
+    background-size: contain, 20% !important;
+    color: #FFFFFF !important;
+}
+.car-deals p{
+    color: #FFFFFF !important;
+}
+.car-wrapper-top{
+    position: absolute;
+    top: 150px;
+    right: -140px;
+    max-width: 800px !important;
+}
+.custom-box-smile{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+
+}
+.custom-box-smile img{
+ max-width: 100%;
+
+}
+.big-card-wrapper{
+    background-size: cover !important;
+    min-height: 620px;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    padding: 32px;
+    color:#FFFFFF !important;
+    display: flex;
+    align-items: flex-end;
+    opacity: 0.8;
+    border-radius: 18px;
+}
+.small-height{
+    min-height: 300px;
+}
+.big-card-wrapper p{
+    color: white;
+}
+.custom-white-card-wrapper{
+    box-shadow: 0px 8px 16px 0px rgba(171, 190, 209, 0.40);
+    padding: 24px;
+    border-radius: 18px;
+
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+    grid-auto-rows: 50px;
+    grid-gap: 10px;
+  }
+  
+  .short {
+    grid-row: span 4;
+  }
+  
+  .tall {
+    grid-row: span 5;
+  } 
+  
+  .customer-img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+  }
+  .get-to-know{
+    width: 100%;
+    min-height: 630px;
+    border-radius: 50px;
+    padding: 80px;
+    background-position:center right!important;
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+  }
+  .custom-accordian  div,  .custom-accordian button{
+    background-color: transparent !important;
+    border: none !important;
+  }
+  .custom-accordian  .accordion-item{
+    background-color: #fff !important;
+    margin-bottom: 20px;
+    border-radius: 6px;
+  }
+  .custom-accordian  button{
+    font-size: 22px;
+    font-family: 'Plus Jakarta Sans semibold';
+    color:#1C1C45 ;
+    border: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+  }
+  .custom-accordian  button::after{
+   content: none;
+  }
+  .custom-accordian  .custom-box-wrapper{
+    background-color: #FF5450 !important;
+    width: 32px;
+    height: 32px;
+    padding: 10px;
+    margin-right: 22px !important;
+  }
+  .custom-accordian  .custom-box-wrapper i{
+    color: #fff;
+    font-size: 16px;
+  }
+  .custom-accordian .accordion-body{
+    padding-top: 0 !important;
+  }
+  .custom-accordian  .accordion-button .custom-box-wrapper.mx-auto {
+    margin: 0 12px 0 0 !important;
+  }
+  .custom-accordian  .accordion-button.collapsed i::before{
+    content: "\f067";
+  }
+  .custom-accordian  .accordion-button i::before{
+    content: "\f068";
+  }
+  .custom-accordian p{
+    color: #575E8D !important;
+  }
+  .custom-medium-container{
+    max-width: 820px;
+    margin: 0 auto;
+  }
+  /* Footer Css */
+  .footer-contact-section img{
+    max-width: 320px;
+  }
+  .footer-contact-section p{
+    color:white !important ;
+  }
+   .footer-wrapper{
+    padding: 80px 0;
+     background:  linear-gradient(270deg, #0F2982 0%, #112374 71.67%, #141754 100%);
+  }
+  .footer-contact-inner-section .custom-font-bold{
+    min-width: 100px;
+  }
+  .footer-nav-links{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+  }
+  .footer-nav-links li{
+    padding: 5px 0;
+  }
+  .footer-nav-links a{
+    color:#FFFFFF !important;
+    font-size: 16px !important;
+    font-family: 'Plus Jakarta Sans Regular' !important;
+  }
+   .social-media-links ul{
+    text-decoration: none;
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0;
+  }
+  .social-media-links li{
+    padding: 5px 12px;
+  }
+  .social-media-links li:nth-child(1){
+    padding-left: 0 !important;
+  }
+  .social-media-links a i{
+    color:#FFFFFF !important;
+    font-size: 20px !important;
+  }
+  .social-media-links a:hover i{
+    color:  #FF5450 !important;
+  }
+  .patent-section-footer {
+    padding-top: 20px;
+  }
+  .patent-section-footer p{
+   
+    color:#FFFFFF !important;
+    text-align: center;
+  }
+  .filter-by-car-types{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .filter-by-car-types i{
+    color: #575E8D;
+  }
+  .custom-box-small{
+    width: 32px;
+    height: 32px;
+    padding: 6px;
+  }
+  input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+    /* All cars Page Css Start */
+.all-cars-section {
+    background-repeat: no-repeat !important;
+    background-size: contain !important;
+    text-align: center;
+    margin-top: 200px;
+    height: auto;
+    min-height: 650px;
+    background-position: center right 300px !important;
+}
+.all-cars-section .banner-inner-section-wrapper{
+    max-width: 100%;
+}
+    /* Filters Css Start */
+.filters-wrapper{
+    border-radius: 24px;
+    background: #FFF;
+    padding: 24px;
+}
+
+.filters-wrapper-inner{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 100%;
+}
+.filters-wrapper-inner a{
+    min-width: auto !important;
+    padding: 14px 20px !important;
+}
+.filters-wrapper-inner-wrapper {
+    flex: 1;
+}
+/* Custom Slider Css */
+.custom-slider-inner-items{
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+}
+.custom-links-filter{
+    border-radius: 24px;
+    background: #FFF;
+    box-shadow: 0px 4px 8px 0px rgba(171, 190, 209, 0.40);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 24px;
+    margin: 0 14px;
+    max-width: 180px;
+    width: 100%;
+    max-height: 150px;
+    height: 100%;
+    font-size: 18px !important;
+    color: #575E8D !important;
+    text-align: center;
+}
+.custom-links-filter img{
+    max-width: 100px;
+    max-height: 68px;
+    padding-bottom: 10px;
+    width: auto !important;
+}
+.custom-slider .owl-dots{
+    display: none;
+}
+.custom-slider .owl-nav{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+}
+.custom-slider .owl-nav button{
+    display: flex !important;
+    width: 55px;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50% !important;
+
+}
+.custom-slider .owl-nav button{
+    background: #FF5450 !important;
+    color:#FFFFFF !important;
+}
+.custom-slider .owl-nav button span{
+    display: none;
+}
+.custom-slider .owl-nav button:before {
+    font-family: "Font Awesome 5 Free";
+   
+    display: inline-block;
+    padding-right: 3px;
+    vertical-align: middle;
+    font-weight: 900;
+ }
+ .custom-slider .owl-nav .owl-next{
+    margin-right: -60px;
+ }
+ .custom-slider .owl-nav .owl-prev{
+    margin-left: -60px;
+ }
+ .custom-slider .owl-nav .owl-next:before{
+    content: "\f061";
+ }
+ .custom-slider .owl-nav .owl-prev:before{
+    content: "\f060";
+ }
+ .custom-slider.owl-theme .owl-nav button.disabled{
+    opacity: 1;
+    border: 1px solid #C8C8C8 !important;
+    background: #FFF !important;
+ }
+ .custom-slider.owl-theme .owl-nav button.disabled:hover{
+    cursor: not-allowed;
+ }
+ .custom-slider.owl-theme .owl-nav button.disabled::before{
+    color: #787878;
+ }
+  /* Optional: Add styles for navigation buttons, pagination, etc. */
+  .stats-section-wraper{
+    min-height: auto;
+  }
+  .stats-section {
+    margin: 58px 0 28px;
+  }
+.stats-section .custom-links-filter{
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 265px;
+    max-height: 128px;
+    width: 100%;
+    min-height: auto;
+    margin: 20px;
+}
+.stats-section .custom-links-filter .custom-box-wrapper {
+    padding: 10px !important;
+}
+.stats-section .custom-links-filter .custom-box-wrapper  img{
+    max-width: 20px !important;
+    padding: 0 !important;
+}
+.stats-section p{
+    color: #989EBB !important;
+}
+
+.main-wrapper-inner{
+    padding-top: 180px;
+}
+  
+
+.custom-slider-wrapper .custom-slider-inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 16px;
+}
+.custom-slider-wrapper .custom-slider-inner input{
+    border: none;
+    box-shadow: none;
+    outline: none;
+    width: 100%;
+    max-width: 150px;
+    text-align: right;
+    color:  #575E8D;
+    font-size: 14px;
+    font-family: 'Plus Jakarta Sans Regular';
+}
+.custom-slider-wrapper .custom-slider-inner p{
+    color:  #1C1C45;
+    font-size: 14px;
+    font-family: 'Plus Jakarta Sans medium';
+}
+
+.custom-slider-wrapper  .ui-widget.ui-widget-content {
+        border: 1px solid #0F2882;
+        height: 1px;
+}
+.custom-slider-wrapper .ui-state-default,.custom-slider-wrapper .ui-widget-content .ui-state-default,.custom-slider-wrapper .ui-widget-header .ui-state-default,.custom-slider-wrapper  .ui-button, html .ui-button.ui-state-disabled:hover, html .ui-button.ui-state-disabled:active{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: white;
+    border: 4px solid #0F2882;
+    transform: translateY(-16%);
+}
+.custom-slider-wrapper{
+    display: flex;
+    align-items: center;
+
+}
+.custom-slider-wrapper .slider-box{
+    padding-left: 12px;
+    width: calc(100% - 32px);
+}
+.custom-pagination-wrapper .page-item.active .page-link{
+    color:#FFFFFF !important;
+    background-color: #0F2882 !important;
+}
+.sidebar-wrapper{
+    position: -webkit-sticky; /* For Safari */
+    position: sticky;
+    top: 150px;
+    margin-bottom: 50px;
+}
+
+
+.custom-toggle-btn {
+    display: none;
+}
+.custom-toggle-btn svg {
+	width: 40px;
+}
+
+#top-line,
+#bottom-line,
+#middle-line {
+	transform-box: fill-box;
+	transform-origin: center;
+}
+
+.custom-toggle-btn:hover svg {
+	#top-line {
+		animation: down-rotate 0.6s ease-out both;
+	}
+	#bottom-line {
+		animation: up-rotate 0.6s ease-out both;
+	}
+	#middle-line {
+		animation: hide 0.6s ease-out forwards;
+	}
+}
+
+ /* Car Details Page Css */
+.custom-image-preview-wrapper > img{
+    border-radius: 20px;
+    max-width: 590px;
+    width: 100%;
+    max-height: 380px;
+    height: 100%;
+}
+.custom-image-preview-wrapper .thumbnails {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 8px;
+}
+.custom-image-preview-wrapper .thumbnails > img{
+    max-width: 137px;
+    width: 100%;
+    max-height: 120px;
+    height: 100%;
+    border-radius: 20px;
+    margin:8px;
+}
+.car-details-section{
+    padding: 40px 0;
+}
+.orange-line{
+    width: 10px;
+    height: 45px;
+    border-radius: 10px;
+    background: #FF5450;
+}
+.custom-width-36{
+    max-width: 36px;
+    max-height: 36px;
+}
+.custom-width-26{
+    max-width: 26px;
+    max-height: 26px;
+}
+.max-width-56{
+    max-width: 56px;
+    max-height: 56px;  
+}
+.custom-breadcrumbs-wrapper a{
+    color: #807D7E !important;
+    font-size: 16px !important;
+    font-family: 'Plus Jakarta Sans medium';
+}
+
+.custom-breadcrumbs-wrapper ol li:before {
+        font-family: "Font Awesome 5 Free";
+        content: "\f105"!important;
+        display: inline-block;
+        padding-right: 3px;
+        vertical-align: middle;
+        font-weight: 900;
+        color: #807D7E !important;
+     }
+     .custom-breadcrumbs-wrapper ol li:nth-child(1)::before {
+        content: none !important;
+     }
+
+     .custom-table-wrapper-container {
+        border-radius: 15px;
+        overflow: hidden;
+        border: 1px solid #C0C4D7;
+        margin: 60px 0;
+      }
+      
+      .custom-table-wrapper {
+        width: 100%;
+        border-spacing: 0;
+        margin: 0 !important;
+        border-color: #C0C4D7 !important;
+      }
+      
+      .custom-table-wrapper td {
+        padding: 10px;
+      }
+      
+      .custom-text-light-grey {
+        color: #aaa;
+      }
+      
+      .grey-text {
+        color: #666;
+      }
+      
+      .custom-font-semibold {
+        font-family: 'Plus Jakarta Sans semibold';
+      }
+      
+.our-experts{
+    border-radius: 48px;
+    padding: 34px 32px;
+    background-position: center right !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+}
+#filter-btn-mobile {
+    display: none !important;
+}    
+.close-btn-filter-sidebar{
+    display: none;
+}
+
+/* Contact us page Css */
+.contact-us-banner{
+    padding: 0;
+    height: auto !important;
+    background-size: cover !important;
+    position: relative;
+    color:#FFFFFF !important;
+}
+.contact-us-banner::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom:0;
+    right: 0;
+    background: linear-gradient(270deg, #141754 0%, #112374 28.33%, #0F2982 100%);
+    opacity: 0.8;
+}
+.contact-us-banner .banner-inner-section-wrapper{
+    position: relative;
+    z-index: 1;
+}
+.contact-us-banner .banner-inner-section-wrapper{
+    max-width: 100%;
+    padding: 150px 0;
+}
+.contact-us-banner .banner-inner-section-wrapper p{
+    color: white;
+}
+
+/* Blog     page Css */
+.blog-page-banner img{
+    max-height: 450px;
+}
+/* About Us page Css */
+
+.about-us-vision-mission{
+    padding: 80px;
+    background-position: bottom right !important;
+}
+.total-cars-sale{
+    background-repeat: no-repeat !important;
+    background-position: top right !important;
+}
+
+.our-corporate-section .car-deals{
+    background-size:20%,contain !important;
+    background-position: left 10% top !important;
+    padding: 140px 80px;
+}
+
+.custom-modal-popup .modal-header,.custom-modal-popup  .modal-footer{
+    border: none;
+}
+.custom-modal-popup  .modal-body{
+    max-height: 500px;
+    overflow-y: scroll;
+}
+.custom-modal-popup  .modal-body::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  .custom-modal-popup  .modal-body::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background:  #F5F7FA;
+  }
+   
+  /* Handle */
+  .custom-modal-popup  .modal-body::-webkit-scrollbar-thumb {
+    background: #FF5450;
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  .custom-modal-popup  .modal-body::-webkit-scrollbar-thumb:hover {
+    background: #FF5450; 
+  }
+  .custom-modal-popup  .modal-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .custom-btn-close{
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    border:2px solid #1C1C45;
+    padding: 5px;
+  }
+  .custom-btn-close i{
+    font-size: 14px;
+    margin-left: 2px;
+    padding-bottom: 8px;
+  }
+  .custom-ul-modal li{
+    font-size: 14px;
+    color: #575E8D;
+  }
+  .custom-modal-popup p{
+    color: #575E8D !important;
+  }
+
+
+
+  .error-wrapper {
+    padding-bottom: 60px;
+  }
+  .error-wrapper .error-img{
+    max-width: 500px;
+  }
+
+
+
+
+  @media (max-width: 1441px) {
+    .banner-section.all-cars-section{
+        height: auto !important;
+        margin-top:80px ;
+    }
+    p{
+        font-size: 16px;
+    }
+    .small-p{
+        font-size: 12px;
+    }
+    .custom-ul-modal li{
+        font-size: 12px;
+      }
+    .card-details-wrapper-image {
+        width: 48px;
+        height: 48px;
+        padding: 5px;
+    }
+    .custom-image-text-wrap img{
+        margin-right: 4px;
+        max-width: 14px;
+        max-height: 14px;
+    }
+
+.banner-section{
+    height: 680px;
+}
+.custom-line-wrapper{
+    min-width: 40px;
+}
+.all-cars-section{
+    background-position: center right 90px !important;
+    padding: 0 20px;
+}
+
+.car-wrapper-top {
+    position: absolute;
+    right: -80px;
+    max-width: 600px !important;
+    top: unset;
+    bottom: -120px;
+}
+.custom-slider .owl-nav .owl-prev {
+    margin-left: 0px;
+}
+.custom-slider .owl-nav .owl-next {
+    margin-right: 0;
+}
+}
+@media (max-width: 1199px) {
+    .car-details-section{
+        padding: 0 !important;
+    }
+    .custom-header .orange-filled-btn.custom-btn{
+        font-size: 12px !important;
+    }
+    .custom-header .nav-item > a{
+        font-size: 14px !important;
+    }
+    .stats-section {
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    .custom-header{
+        max-width: 1100px;
+    }
+    .best-deal-section{
+        padding-top: 80px;
+    }
+    .section-padding{
+        padding: 40px 0 ;
+    }
+    .custom-header {
+        max-width: 900px;
+        padding: 16px 22px;
+    }
+    .custom-btn {
+        padding: 12px 20px;
+        min-width: 180px;
+    }
+    .custom-header .custom-btn{
+        min-width: auto !important;
+    }
+    a{
+        font-size: 16px !important;
+    }
+    .nav-link:nth-last-child(1) {
+        padding-right: 20px !important;
+    }
+    .nav-link{
+        padding: 0 12px !important;
+    }
+   .banner-section{
+    background: linear-gradient(270deg, #141754 0%, #112374 28.33%, #0F2982 100%) !important;
+
+   } 
+   .banner-section.all-cars-section{
+    background: none !important;
+   }
+   .container-xxl{
+    padding: 0 24px !important;
+   }
+   .latest-insights  .container-xxl{
+    padding: 0  !important;
+   }
+   .car-wrapper-top {
+    top: unset;
+    right: -90px;
+    bottom: -90px;
+}
+.car-wrapper-top img{
+    max-width: 420px !important;
+}
+.custom-row-wrapper  .custom-line-wrapper:nth-last-child(2){
+    display: none;
+}
+.custom-column{
+    padding: 20px 35px;
+}
+.search-input {
+    padding: 12px 70px 12px 20px;
+    font-size: 16px;
+    min-height: 60px;
+}
+.contact-us-banner .banner-inner-section-wrapper{
+    padding-bottom: 50px !important;
+}
+}
+@media (max-width: 991px) {
+    
+    .banner-section.all-cars-section{
+        margin-top: 120px;
+    }
+    .filters-wrapper{
+        padding: 24px 0;
+    }
+    .custom-mobile-menu .dropdown-container{
+        width: 100%;
+    }
+    .custom-mobile-menu .navbar-nav{
+    max-height: calc(100vh - 70px);
+    overflow-y: scroll;
+}
+    .custom-mobile-menu .nav-item{
+        width: 100%;
+       
+    }
+    .custom-mobile-menu .nav-item a{
+        justify-content: space-between;
+    }
+    .custom-mobile-menu .dropdown-menu{
+        max-width: 100%;
+        width: 100%;
+        position: relative;
+        left: unset;
+        top: unset;
+        transform: unset;
+        margin: 10px 0;
+        padding: 10px 0;
+    }
+    #dropdown-menu-button:hover i{
+        transform: rotate(90deg);
+    }
+    .custom-mobile-menu .dropdown-menu::before{
+        content: none;
+    }
+    .custom-mobile-menu{
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: white;
+        z-index: 1000;
+        width: 100%;
+        height: 100%;
+        transform: translateX(-100%);
+        transition: .3s ease;
+        padding: 20px;
+        justify-content: flex-start !important;
+       
+    }
+    .custom-mobile-menu.show{
+        transform: translateX(0);
+        transition: .3s ease;
+        
+    }
+    .navbar-collapse-btn{
+        display: block;
+        text-align: right;
+    }
+    .custom-toggle-btn {
+        display: block;
+    }
+   .sidebar-wrapper{
+    position: fixed;
+    top: 0;
+    left: -100%; /* Initially hidden off-screen */
+    width: 100%;
+    height: 100vh;
+    overflow-y: scroll;
+    background-color: white; /* Semi-transparent background */
+    z-index: 9999;
+    transition: left 0.3s ease; /* Smooth transition */
+   }
+   .sidebar-wrapper.show{
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    border-radius: 0;
+   }
+   .custom-mobile-menu li a i{
+    display: block;
+   }
+   .custom-mobile-menu .navbar-nav{
+    align-items: flex-start !important;
+   }
+   .custom-mobile-menu .navbar-nav li{
+    padding: 10px 0;
+   }
+   #filter-btn-mobile {
+    display: flex !important;
+    justify-content: center;
+} 
+.close-btn-filter-sidebar{
+    display: block;
+}
+    .custom-header {
+        max-width: 700px;
+    }
+    .brands-section .logos-wrapper {
+        overflow: scroll;
+    }
+    .brands-section .logos-wrapper::-webkit-scrollbar{
+        display: none;
+    }
+    .brands-section > div{
+        padding: 0 !important;
+    }
+   
+    .custom-column{
+        padding: 20px 10px;
+    }
+    .custom-line-wrapper {
+        min-width: 4px;
+    }
+    .car-deals{
+        padding: 40px;
+        background-size: 40%, 25%, 100% 100% !important;
+        background-position:  bottom right,top left !important;
+        min-height: auto !important;
+    }
+    .get-to-know{
+        padding: 40px;
+    }
+    .get-to-know .row > div:nth-child(1){
+        order: 2;
+    }
+    .car-wrapper-top{
+        display: none;
+    }
+    .footer-contact-section{
+        text-align: center;
+    }
+    .footer-contact-inner-section{
+        max-width: 350px;
+        margin: auto;
+    }
+    .mobile-responsive-center{
+        justify-content: center;
+    }
+    .footer-contact-inner-section .custom-font-bold{
+        text-align: left;
+    }
+    .footer-wrapper{
+        padding: 80px 0 40px;
+    }
+    .stats-section{
+        margin-top: 30px;
+    }
+    .about-us-vision-mission{
+        padding: 40px;
+        background-size: 50% ,100% 100% !important;
+    }
+    .our-corporate-section .car-deals{
+        padding: 40px !important;
+    }
+    .custom-modal-popup .modal-body {
+        max-height: 360px;
+        overflow-y: scroll;
+    }
+}
+@media (max-width: 767px) {
+    .filters-wrapper-inner-wrapper{
+        width: 100%;
+    }
+    .about-us-vision-mission{
+        padding: 20px;
+    }
+    .our-corporate-section .car-deals{
+        padding: 20px !important;
+    }
+    .custom-links-filter{
+        margin: 0 auto;
+    }
+    .filters-wrapper-inner{
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+    .filters-wrapper-inner .d-flex{
+        flex-direction: column;
+    }
+    .banner-section.all-cars-section{
+        margin: 0 !important;
+    }
+    .banner-section{
+        height: auto !important;
+        padding: 160px 0 60px;
+    }
+    .custom-padding-inner-section{
+        padding: 48px 0;
+    }
+    .grid-container{
+        grid-template-columns: repeat(auto-fill, minmax(40%, 1fr));
+    }
+    .car-deals{
+        padding: 40px 20px;
+    }
+    h1{
+        font-size: 46px;
+        font-family: 'Plus Jakarta Sans extrabold';
+    }
+    h2{
+        font-size: 32px;
+        font-family: 'Plus Jakarta Sans semibold';
+       
+    }
+    h3{
+        font-size: 28px;
+    }
+    h4{
+        font-size: 24px;
+        color: #575E8D ;
+    }
+    h5{
+        font-size: 20px;
+    }
+    h6{
+        font-size: 18px;
+    }
+    p{
+        font-size: 16px;
+        color: #989EBB;
+    }
+    .small-p{
+        font-size: 12px;
+    }
+    .custom-text-small{
+        font-size: 14px;
+    }
+    .custom-accordian button{
+        font-size: 20px;
+    }
+  
+    .nav-link{
+        padding: 0 12px !important;
+    }
+    .dropdown-menu .col-md-6 {
+        width: 50%;
+    }
+
+    /* Adjust position of dropdown menu */
+    .dropdown-menu {
+        top: calc(100% + 10px);
+        left: 0;
+    }
+
+    /* Position relative to parent container */
+    .dropdown-container {
+        position: relative;
+    }
+    /* Reduce width of wide dropdown menu for smaller screens */
+    .dropdown-menu-wide {
+        width: 100%;
+        max-width: 300px; /* Adjust max-width as needed */
+    }
+
+    /* Center the dropdown menu horizontally for smaller screens */
+    .dropdown-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .custom-header {
+        max-width: 540px;
+    }
+    .total-cars-sale .d-flex{
+        flex-direction: column;
+    }
+    .total-cars-sale .d-flex > div{
+       margin:  10px 0;
+    }
+    .order-change-mobile{
+        order: 4;
+    }
+    .custom-modal-popup .modal-body {
+        max-height: 360px;
+        overflow-y: scroll;
+    }
+}
+@media (max-width: 575px) {
+.custom-header {
+    max-width: 440px;
+}
+.footer-contact-section .ps-2.pe-5{
+        padding-right: 0 !important;
+    }
+    .footer-contact-inner-section{
+        text-align: left !important;
+    }
+}
+
+@media (max-width: 479px) {
+    .custom-links-filter img{
+        max-width: 80px;
+        max-height: 44px;
+    }
+    .custom-accordian button{
+        font-size: 18px;
+    }
+    .mobile-responsive-column-view{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+    .mobile-responsive-column-view > div, .mobile-responsive-column-view > a, .mobile-responsive-column-view > button {
+        margin: 10px 0 !important;
+    }
+    .custom-header {
+        max-width: 320px;
+    }
+    .navbar-brand img {
+        max-width: 150px;
+    }
+    .grid-container{
+        grid-template-columns:unset;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 4;
+    }
+    .footer-contact-section img {
+        max-width: 220px;
+    }
+    .custom-header {
+        max-width: 320px;
+        padding: 10px;
+    }
+    .navbar-toggler{
+        width: 30px;
+        padding: 5px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .navbar-toggler .navbar-toggler-icon{
+        width: 1rem;
+        height: 1rem;
+    }
+    .scroll .custom-header {
+        top: 16px;
+    }
+    .custom-padding-inner-section{
+        padding-bottom: 0  !important;
+    }
+    .card-details-wrapper{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+    }
+    .card-details-wrapper .card-details-text-wrapper{
+        padding: 10px 0 !important;
+        width: 100%;
+    }
+    .card-details-wrapper .card-details-text-wrapper .card-details-text-wrapper-top p:nth-child(1){
+        padding-right: 5px;
+    }
+    .card-wrapper{
+        padding: 8px;
+    }
+    .get-to-know{
+        padding: 40px 20px;
+    }
+    .brands-section img {
+        margin: 0 25px;
+        max-width: 100px;
+        max-height: 24px;
+    }
+    
+}
+
+
+
+@keyframes up-rotate {
+	0% {
+		animation-timing-function: cubic-bezier(0.16, -0.88, 0.97, 0.53);
+		transform: translateY(0px);
+	}
+	30% {
+		transform-origin: center;
+		animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+		transform: translateY(-10px);
+	}
+	100% {
+		transform-origin: center;
+		transform: translateY(-10px) rotate(45deg) scale(0.9);
+	}
+}
+
+@keyframes down-rotate {
+	0% {
+		animation-timing-function: cubic-bezier(0.16, -0.88, 0.97, 0.53);
+		transform: translateY(0px);
+	}
+	30% {
+		transform-origin: center;
+		animation-timing-function: cubic-bezier(0.34, 1.56, 0.64, 1);
+		transform: translateY(10px);
+	}
+	100% {
+		transform-origin: center;
+		transform: translateY(10px) rotate(-45deg) scale(0.9);
+	}
+}
+
+@keyframes hide {
+	29% {
+		opacity: 1;
+	}
+	30% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 0;
+	}
+}
