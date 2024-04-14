@@ -2096,6 +2096,9 @@ input[type=number]::-webkit-outer-spin-button {
     .footer-contact-inner-section{
         text-align: left !important;
     }
+    .rental-services-orange-img{
+        display: none !important;
+    }
 }
 
 @media (max-width: 479px) {
