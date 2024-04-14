@@ -37,10 +37,13 @@ $('#close-sidebar-btn').on('click', function(){
         nav:true,
         responsive:{
           0:{
+            items:1
+          },
+          576:{
             items:2
           },
-          600:{
-            items:2
+          992:{
+            items:3
           },
           1000:{
             items:4
