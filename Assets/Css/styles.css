@@ -2102,11 +2102,12 @@ input[type=number]::-webkit-outer-spin-button {
 }
 
 @media (max-width: 479px) {
-    .owl-carousel .item{
-        margin-top: 50px !important;
+    .mobile-responsive-padding{
+        padding-top: 80px !important;
     }
     .custom-slider .owl-nav{
-        top:0 !important;
+        top:unset !important;
+        bottom: -120px;
     }
     .patent-section-footer ul{
         justify-content: center;
